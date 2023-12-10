@@ -32,25 +32,3 @@ Podczas uruchamiania program wczytuje listę produktów. Program ma umożliwiać
 Przy kolejnym uruchomieniu program wczytuje do edycji ostatnio zapisaną listę zakupów (program nie umożliwia jednoczesnego zapisania kilku odrębnych list zakupów).
 
 W zadaniu można dla uproszczenia pominąć kategorie produktów. Tak uproszczone zadanie oceniane jest na ocenę 3.
-
-Rozbuduj program "Lista zakupów" z zadania 4.
-
-Program na ocenę 3 ma umożliwiać:
-
-    obsługę za pomocą GUI
-    edycję listy możliwych do zakupienia produktów
-    uwzględnienie liczności/ilości danego produktu
-        należy przechowywać w liście produktów dodatkową informację o tym w jakich jednostkach mierzy się liczność/ilość danego produktu (np. sztuki, kilogramy, metry, litry)
-        należy uwzględnić to czy liczność/ilość danego produktu jest liczbą całkowitą czy też zmiennoprzecinkową
-
-Dodatkowo na ocenę 4 program ma umożliwiać:
-
-    odczyt i edycję tej samej listy zakupów przez dwóch użytkowników siedzących przy różnych komputerach
-        można przyjąć dla uproszczenia że użytkownicy nie edytują listy zakupów w tym samym czasie
-
-Dodatkowo na ocenę 5 program ma umożliwiać:
-
-    korzystanie z programu przez wielu użytkowników siedzących przy różnych komputerach
-    posiadanie przez każdego użytkownika więcej niż jednej listy zakupów (np. codzienna, tygodniowa)
-    przydzielenie dostępu innemu/innym użytkownikom do jednej lub kilku posiadanych przez danego użytkownika list zakupów, dostęp może być tylko do odczytu lub do odczytu i edycji
-        należy zaimplementować i przetestować synchronizację zmian wprowadzanych przez różnych użytkowników (np. jeden użytkownik usuwa produkt z listy zakupów podczas gdy drugi użytkownik w tym samym momencie zwiększa liczność/ilość danego produktu)
